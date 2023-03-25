@@ -1,0 +1,53 @@
+/* Center the form on the page */
+form {
+  width: 50%;
+  margin: auto;
+}
+
+/* Style the form labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Style the form headings */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Set the font family */
+body {
+  font-family: Arial, sans-serif;
+background: linear-gradient(30deg, white, pink);
+
+}
