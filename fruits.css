@@ -1,0 +1,100 @@
+/* CSS for header section */
+header {
+  background: linear-gradient(30deg, black,grey, black);
+
+  color: white;
+  padding: 20px;
+}
+
+/* CSS for navigation menu */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #333;
+}
+
+/* CSS for main section */
+main {
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+background: linear-gradient(30deg, purple, white,purple);
+
+}
+
+section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+li h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+li p {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+li button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #333;
+}

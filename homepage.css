@@ -1,0 +1,60 @@
+/* set default styles for body and heading tags */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* style the header and navigation links */
+header {
+  background: linear-gradient(30deg, white, red, white);
+border-bottom: 1px solid #EAEAEA;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #EEE;
+}
+
+/* style the main section */
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+}
+
+section p {
+  line-height: 1.5;
+}

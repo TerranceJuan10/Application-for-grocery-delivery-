@@ -1,0 +1,133 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set body background color */
+body {
+  background-color: #f5f5f5;
+}
+
+/* Set header background color, text color, and font */
+header {
+  background: linear-gradient(30deg, #F7819F, grey,#FA5882);
+
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Set header h1 font size and margin */
+header h1 {
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+/* Set nav ul to display inline and remove bullet points */
+nav ul {
+  list-style: none;
+  display: inline;
+}
+
+/* Set nav li to display inline and add padding */
+nav li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+/* Set nav a text color and font size */
+nav a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Set main margin and padding */
+main {
+  margin: 2rem;
+  padding: 1rem;
+  background: linear-gradient(30deg, #610B21,#F6E3CE, #8A084B);
+
+}
+
+/* Set main h2 font size and margin */
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Set table border-collapse to collapse and width to 100% */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Set table th and td padding and text-align */
+table th,
+table td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* Set table th background color, text color, and font size */
+table th {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Set table tbody tr background color on hover */
+table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Set table tbody td input width and padding */
+table tbody td input {
+  width: 3rem;
+  padding: 0.25rem;
+}
+
+/* Set table tfoot td colspan to 3 and text-align right */
+table tfoot td[colspan="3"] {
+  text-align: right;
+}
+
+/* Set table tfoot td:last-child text color, font size, and font weight */
+table tfoot td:last-child {
+  color: #007bff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Set div display to flex, justify-content to space-between, and margin-top */
+div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+/* Set div a text decoration and margin-right */
+div a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Set div button background color, text color, padding, and border */
+div button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Set footer text color and margin */
+footer {
+  color: #777;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+}

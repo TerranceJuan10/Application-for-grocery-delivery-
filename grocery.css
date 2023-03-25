@@ -1,0 +1,93 @@
+/* Style for the header section */
+header {
+  background: linear-gradient(30deg, #0000ff, #1a0000,#0080ff);
+
+  color: white;
+  padding: 20px;
+}
+
+/* Style for the navigation links */
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+/* Style for the main section */
+main {
+  margin: 20px;
+background: linear-gradient(30deg, #58D3F7, grey,#0B4C5F);
+
+}
+
+/* Style for the section headings */
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for the list items */
+li {
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+li h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+li img {
+  max-width: 100%;
+}
+
+li p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+li button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #3e8e41;
+}
+/* Style for the footer section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
